@@ -1,0 +1,5 @@
+<map id="PhysicsWorld::destroy" name="PhysicsWorld::destroy">
+<area shape="rect" id="Node000001" title=" " alt="" coords="5,5,158,32"/>
+<area shape="rect" id="Node000002" href="$class_physics_world.html#a8fc33e66142c8a5cffa5dbefffff95de" title=" " alt="" coords="206,5,354,32"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="158,16,193,19,187,19,158,21"/>
+</map>

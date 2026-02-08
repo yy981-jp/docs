@@ -1,0 +1,163 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "https://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="ja">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=11"/>
+<meta name="generator" content="Doxygen 1.14.0"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<title>SHT: gfx.h ソースファイル</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="dynsections.js"></script>
+<script type="text/javascript" src="clipboard.js"></script>
+<link href="navtree.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="navtreedata.js"></script>
+<script type="text/javascript" src="navtree.js"></script>
+<script type="text/javascript" src="cookie.js"></script>
+<link href="search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="search/searchdata.js"></script>
+<script type="text/javascript" src="search/search.js"></script>
+<link href="doxygen.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr id="projectrow">
+  <td id="projectalign">
+   <div id="projectname">SHT
+   </div>
+  </td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- 構築: Doxygen 1.14.0 -->
+<script type="text/javascript">
+var searchBox = new SearchBox("searchBox", "search/",'.html');
+</script>
+<script type="text/javascript">
+$(function() { codefold.init(); });
+</script>
+<script type="text/javascript" src="menudata.js"></script>
+<script type="text/javascript" src="menu.js"></script>
+<script type="text/javascript">
+$(function() {
+  initMenu('',true,false,'search.php','検索',true);
+  $(function() { init_search(); });
+});
+</script>
+<div id="main-nav"></div>
+</div><!-- top -->
+<div id="side-nav" class="ui-resizable side-nav-resizable">
+  <div id="nav-tree">
+    <div id="nav-tree-contents">
+      <div id="nav-sync" class="sync"></div>
+    </div>
+  </div>
+  <div id="splitbar" style="-moz-user-select:none;" 
+       class="ui-resizable-handle">
+  </div>
+</div>
+<script type="text/javascript">
+$(function(){initNavTree('gfx_8h_source.html','',''); });
+</script>
+<div id="container">
+<div id="doc-content">
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+</div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<div id="MSearchResults">
+<div class="SRPage">
+<div id="SRIndex">
+<div id="SRResults"></div>
+<div class="SRStatus" id="Loading">読み取り中…</div>
+<div class="SRStatus" id="Searching">検索中…</div>
+<div class="SRStatus" id="NoMatches">一致する文字列を見つけられません</div>
+</div>
+</div>
+</div>
+</div>
+
+<div class="header">
+  <div class="headertitle"><div class="title">gfx.h</div></div>
+</div><!--header-->
+<div class="contents">
+<a href="gfx_8h.html">[詳解]</a><div class="fragment"><div class="line"><a id="l00001" name="l00001"></a><span class="lineno">    1</span><span class="preprocessor">#pragma once</span></div>
+<div class="line"><a id="l00002" name="l00002"></a><span class="lineno">    2</span> </div>
+<div class="line"><a id="l00003" name="l00003"></a><span class="lineno">    3</span><span class="preprocessor">#include &lt;cstdint&gt;</span></div>
+<div class="line"><a id="l00004" name="l00004"></a><span class="lineno">    4</span><span class="preprocessor">#include &lt;string&gt;</span></div>
+<div class="line"><a id="l00005" name="l00005"></a><span class="lineno">    5</span><span class="preprocessor">#include &lt;unordered_map&gt;</span></div>
+<div class="line"><a id="l00006" name="l00006"></a><span class="lineno">    6</span><span class="preprocessor">#include &lt;vector&gt;</span></div>
+<div class="line"><a id="l00007" name="l00007"></a><span class="lineno">    7</span> </div>
+<div class="line"><a id="l00008" name="l00008"></a><span class="lineno">    8</span><span class="preprocessor">#include &quot;<a class="code" href="all_8h.html">../tables/all.h</a>&quot;</span></div>
+<div class="line"><a id="l00009" name="l00009"></a><span class="lineno">    9</span><span class="preprocessor">#include &quot;<a class="code" href="_s_d_l__def_8h.html">../core/SDL_def.h</a>&quot;</span></div>
+<div class="line"><a id="l00010" name="l00010"></a><span class="lineno">   10</span> </div>
+<div class="foldopen" id="foldopen00011" data-start="{" data-end="};">
+<div class="line"><a id="l00011" name="l00011"></a><span class="lineno"><a class="line" href="struct_sprite_info.html">   11</a></span><span class="keyword">struct </span><a class="code hl_function" href="struct_sprite_info.html#a00c4694e6008670f579840f4421990b9">SpriteInfo</a> {</div>
+<div class="line"><a id="l00012" name="l00012"></a><span class="lineno"><a class="line" href="struct_sprite_info.html#a00c4694e6008670f579840f4421990b9">   12</a></span>    <a class="code hl_function" href="struct_sprite_info.html#a00c4694e6008670f579840f4421990b9">SpriteInfo</a>(): <a class="code hl_variable" href="struct_sprite_info.html#a14d3c3e251d8dc8ea711fdcd797fdb3a">tex</a>(nullptr), <a class="code hl_variable" href="struct_sprite_info.html#ab71c97c8e14f7f66aed815003e5dc1f0">w</a>(0), <a class="code hl_variable" href="struct_sprite_info.html#ae95a665a3031af1da4db61747646c4bd">h</a>(0) {}</div>
+<div class="foldopen" id="foldopen00013" data-start="{" data-end="}">
+<div class="line"><a id="l00013" name="l00013"></a><span class="lineno"><a class="line" href="struct_sprite_info.html#a792d9864748c6ae5d47a9d2bb5e26ebe">   13</a></span>    <a class="code hl_function" href="struct_sprite_info.html#a792d9864748c6ae5d47a9d2bb5e26ebe">SpriteInfo</a>(SDL_Texture* <a class="code hl_variable" href="struct_sprite_info.html#a14d3c3e251d8dc8ea711fdcd797fdb3a">tex</a>, <span class="keywordtype">int</span> width, <span class="keywordtype">int</span> height):</div>
+<div class="line"><a id="l00014" name="l00014"></a><span class="lineno">   14</span>      <a class="code hl_variable" href="struct_sprite_info.html#a14d3c3e251d8dc8ea711fdcd797fdb3a">tex</a>(<a class="code hl_variable" href="struct_sprite_info.html#a14d3c3e251d8dc8ea711fdcd797fdb3a">tex</a>), <a class="code hl_variable" href="struct_sprite_info.html#ab71c97c8e14f7f66aed815003e5dc1f0">w</a>(width), <a class="code hl_variable" href="struct_sprite_info.html#ae95a665a3031af1da4db61747646c4bd">h</a>(height) {}</div>
+</div>
+<div class="line"><a id="l00015" name="l00015"></a><span class="lineno"><a class="line" href="struct_sprite_info.html#a14d3c3e251d8dc8ea711fdcd797fdb3a">   15</a></span>    SDL_Texture* <a class="code hl_variable" href="struct_sprite_info.html#a14d3c3e251d8dc8ea711fdcd797fdb3a">tex</a>;</div>
+<div class="line"><a id="l00016" name="l00016"></a><span class="lineno"><a class="line" href="struct_sprite_info.html#ab71c97c8e14f7f66aed815003e5dc1f0">   16</a></span>    <span class="keywordtype">int</span> <a class="code hl_variable" href="struct_sprite_info.html#ab71c97c8e14f7f66aed815003e5dc1f0">w</a>;</div>
+<div class="line"><a id="l00017" name="l00017"></a><span class="lineno"><a class="line" href="struct_sprite_info.html#ae95a665a3031af1da4db61747646c4bd">   17</a></span>    <span class="keywordtype">int</span> <a class="code hl_variable" href="struct_sprite_info.html#ae95a665a3031af1da4db61747646c4bd">h</a>;</div>
+<div class="line"><a id="l00018" name="l00018"></a><span class="lineno">   18</span>};</div>
+</div>
+<div class="line"><a id="l00019" name="l00019"></a><span class="lineno">   19</span> </div>
+<div class="line"><a id="l00020" name="l00020"></a><span class="lineno">   20</span> </div>
+<div class="foldopen" id="foldopen00021" data-start="{" data-end="};">
+<div class="line"><a id="l00021" name="l00021"></a><span class="lineno"><a class="line" href="class_renderer.html">   21</a></span><span class="keyword">class </span><a class="code hl_function" href="class_renderer.html#ac9fe4587eceedb4c4a081c71ec37db23">Renderer</a> {</div>
+<div class="line"><a id="l00022" name="l00022"></a><span class="lineno">   22</span>    <span class="keywordtype">void</span>* native;</div>
+<div class="line"><a id="l00023" name="l00023"></a><span class="lineno">   23</span>    std::vector&lt;SpriteInfo&gt; spriteTable;</div>
+<div class="line"><a id="l00024" name="l00024"></a><span class="lineno">   24</span>    <span class="keywordtype">int</span> halfWidth, halfHeight;</div>
+<div class="line"><a id="l00025" name="l00025"></a><span class="lineno">   25</span> </div>
+<div class="line"><a id="l00026" name="l00026"></a><span class="lineno">   26</span><span class="keyword">public</span>:</div>
+<div class="line"><a id="l00027" name="l00027"></a><span class="lineno">   27</span>    <a class="code hl_function" href="class_renderer.html#ac9fe4587eceedb4c4a081c71ec37db23">Renderer</a>(<span class="keywordtype">void</span>* sdlRenderer, <span class="keywordtype">int</span> halfWidth, <span class="keywordtype">int</span> halfHeight);</div>
+<div class="line"><a id="l00028" name="l00028"></a><span class="lineno">   28</span>    <a class="code hl_function" href="class_renderer.html#afeee408862d5bd6255a6882d47e6d5cd">~Renderer</a>();</div>
+<div class="line"><a id="l00029" name="l00029"></a><span class="lineno">   29</span> </div>
+<div class="line"><a id="l00030" name="l00030"></a><span class="lineno">   30</span>    <a class="code hl_typedef" href="vec2_8h.html#aa0c4eedbebbd1096a5068c3b0a2157ca">vec2i</a> <a class="code hl_function" href="class_renderer.html#a402eeab4b0962a8d97b7f73926580637">getSpriteSize</a>(<a class="code hl_typedef" href="def_8h.html#a67615fb67e97bdb6ac45662cb7bbd789">EntityType</a> spriteID) <span class="keyword">const</span>;</div>
+<div class="line"><a id="l00031" name="l00031"></a><span class="lineno">   31</span>    <span class="keywordtype">void</span> <a class="code hl_function" href="class_renderer.html#af6e0c564c75bccdcfacab138abf4b1e1">drawSprite</a>(<a class="code hl_typedef" href="def_8h.html#a67615fb67e97bdb6ac45662cb7bbd789">EntityType</a> spriteID, <span class="keyword">const</span> <a class="code hl_typedef" href="vec2_8h.html#aa0c4eedbebbd1096a5068c3b0a2157ca">vec2i</a>&amp; pos) <span class="keyword">const</span>;</div>
+<div class="line"><a id="l00032" name="l00032"></a><span class="lineno">   32</span>    <span class="keywordtype">void</span> <a class="code hl_function" href="class_renderer.html#af6e0c564c75bccdcfacab138abf4b1e1">drawSprite</a>(<a class="code hl_typedef" href="def_8h.html#a67615fb67e97bdb6ac45662cb7bbd789">EntityType</a> spriteID, <span class="keyword">const</span> <a class="code hl_typedef" href="vec2_8h.html#ab1552f35274a33a09759b67da3dbfddc">vec2f</a>&amp; pos) <span class="keyword">const</span>;</div>
+<div class="line"><a id="l00033" name="l00033"></a><span class="lineno">   33</span> </div>
+<div class="line"><a id="l00034" name="l00034"></a><span class="lineno">   34</span>    <span class="keywordtype">void</span> <a class="code hl_function" href="class_renderer.html#a433e1361398234e89636851fe7ca8591">drawFilledCircle</a>(<span class="keyword">const</span> <a class="code hl_typedef" href="vec2_8h.html#ab1552f35274a33a09759b67da3dbfddc">vec2f</a> pos, <span class="keywordtype">float</span> rad) <span class="keyword">const</span>;</div>
+<div class="line"><a id="l00035" name="l00035"></a><span class="lineno">   35</span>    <span class="keywordtype">void</span> <a class="code hl_function" href="class_renderer.html#ab386b9907fb91defc94c123545941c04">setColor</a>(uint8_t r, uint8_t g, uint8_t b, uint8_t a) <span class="keyword">const</span> ;</div>
+<div class="line"><a id="l00036" name="l00036"></a><span class="lineno">   36</span>};</div>
+</div>
+<div class="ttc" id="a_s_d_l__def_8h_html"><div class="ttname"><a href="_s_d_l__def_8h.html">SDL_def.h</a></div></div>
+<div class="ttc" id="aall_8h_html"><div class="ttname"><a href="all_8h.html">all.h</a></div></div>
+<div class="ttc" id="aclass_renderer_html_a402eeab4b0962a8d97b7f73926580637"><div class="ttname"><a href="class_renderer.html#a402eeab4b0962a8d97b7f73926580637">Renderer::getSpriteSize</a></div><div class="ttdeci">vec2i getSpriteSize(EntityType spriteID) const</div><div class="ttdef"><b>Definition</b> <a href="gfx_8cpp_source.html#l00041">gfx.cpp:41</a></div></div>
+<div class="ttc" id="aclass_renderer_html_a433e1361398234e89636851fe7ca8591"><div class="ttname"><a href="class_renderer.html#a433e1361398234e89636851fe7ca8591">Renderer::drawFilledCircle</a></div><div class="ttdeci">void drawFilledCircle(const vec2f pos, float rad) const</div><div class="ttdef"><b>Definition</b> <a href="gfx_8cpp_source.html#l00068">gfx.cpp:68</a></div></div>
+<div class="ttc" id="aclass_renderer_html_ab386b9907fb91defc94c123545941c04"><div class="ttname"><a href="class_renderer.html#ab386b9907fb91defc94c123545941c04">Renderer::setColor</a></div><div class="ttdeci">void setColor(uint8_t r, uint8_t g, uint8_t b, uint8_t a) const</div><div class="ttdef"><b>Definition</b> <a href="gfx_8cpp_source.html#l00089">gfx.cpp:89</a></div></div>
+<div class="ttc" id="aclass_renderer_html_ac9fe4587eceedb4c4a081c71ec37db23"><div class="ttname"><a href="class_renderer.html#ac9fe4587eceedb4c4a081c71ec37db23">Renderer::Renderer</a></div><div class="ttdeci">Renderer(void *sdlRenderer, int halfWidth, int halfHeight)</div><div class="ttdef"><b>Definition</b> <a href="gfx_8cpp_source.html#l00030">gfx.cpp:30</a></div></div>
+<div class="ttc" id="aclass_renderer_html_af6e0c564c75bccdcfacab138abf4b1e1"><div class="ttname"><a href="class_renderer.html#af6e0c564c75bccdcfacab138abf4b1e1">Renderer::drawSprite</a></div><div class="ttdeci">void drawSprite(EntityType spriteID, const vec2i &amp;pos) const</div><div class="ttdef"><b>Definition</b> <a href="gfx_8cpp_source.html#l00049">gfx.cpp:49</a></div></div>
+<div class="ttc" id="aclass_renderer_html_afeee408862d5bd6255a6882d47e6d5cd"><div class="ttname"><a href="class_renderer.html#afeee408862d5bd6255a6882d47e6d5cd">Renderer::~Renderer</a></div><div class="ttdeci">~Renderer()</div><div class="ttdef"><b>Definition</b> <a href="gfx_8cpp_source.html#l00039">gfx.cpp:39</a></div></div>
+<div class="ttc" id="adef_8h_html_a67615fb67e97bdb6ac45662cb7bbd789"><div class="ttname"><a href="def_8h.html#a67615fb67e97bdb6ac45662cb7bbd789">EntityType</a></div><div class="ttdeci">uint16_t EntityType</div><div class="ttdef"><b>Definition</b> <a href="def_8h_source.html#l00008">def.h:8</a></div></div>
+<div class="ttc" id="astruct_sprite_info_html_a00c4694e6008670f579840f4421990b9"><div class="ttname"><a href="struct_sprite_info.html#a00c4694e6008670f579840f4421990b9">SpriteInfo::SpriteInfo</a></div><div class="ttdeci">SpriteInfo()</div><div class="ttdef"><b>Definition</b> <a href="#l00012">gfx.h:12</a></div></div>
+<div class="ttc" id="astruct_sprite_info_html_a14d3c3e251d8dc8ea711fdcd797fdb3a"><div class="ttname"><a href="struct_sprite_info.html#a14d3c3e251d8dc8ea711fdcd797fdb3a">SpriteInfo::tex</a></div><div class="ttdeci">SDL_Texture * tex</div><div class="ttdef"><b>Definition</b> <a href="#l00015">gfx.h:15</a></div></div>
+<div class="ttc" id="astruct_sprite_info_html_a792d9864748c6ae5d47a9d2bb5e26ebe"><div class="ttname"><a href="struct_sprite_info.html#a792d9864748c6ae5d47a9d2bb5e26ebe">SpriteInfo::SpriteInfo</a></div><div class="ttdeci">SpriteInfo(SDL_Texture *tex, int width, int height)</div><div class="ttdef"><b>Definition</b> <a href="#l00013">gfx.h:13</a></div></div>
+<div class="ttc" id="astruct_sprite_info_html_ab71c97c8e14f7f66aed815003e5dc1f0"><div class="ttname"><a href="struct_sprite_info.html#ab71c97c8e14f7f66aed815003e5dc1f0">SpriteInfo::w</a></div><div class="ttdeci">int w</div><div class="ttdef"><b>Definition</b> <a href="#l00016">gfx.h:16</a></div></div>
+<div class="ttc" id="astruct_sprite_info_html_ae95a665a3031af1da4db61747646c4bd"><div class="ttname"><a href="struct_sprite_info.html#ae95a665a3031af1da4db61747646c4bd">SpriteInfo::h</a></div><div class="ttdeci">int h</div><div class="ttdef"><b>Definition</b> <a href="#l00017">gfx.h:17</a></div></div>
+<div class="ttc" id="avec2_8h_html_aa0c4eedbebbd1096a5068c3b0a2157ca"><div class="ttname"><a href="vec2_8h.html#aa0c4eedbebbd1096a5068c3b0a2157ca">vec2i</a></div><div class="ttdeci">Vec2&lt; int &gt; vec2i</div><div class="ttdef"><b>Definition</b> <a href="vec2_8h_source.html#l00048">vec2.h:48</a></div></div>
+<div class="ttc" id="avec2_8h_html_ab1552f35274a33a09759b67da3dbfddc"><div class="ttname"><a href="vec2_8h.html#ab1552f35274a33a09759b67da3dbfddc">vec2f</a></div><div class="ttdeci">Vec2&lt; float &gt; vec2f</div><div class="ttdef"><b>Definition</b> <a href="vec2_8h_source.html#l00047">vec2.h:47</a></div></div>
+</div><!-- fragment --></div><!-- contents -->
+</div><!-- doc-content -->
+</div><!-- container -->
+<!-- start footer part -->
+<div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
+  <ul>
+    <li class="navelem"><a href="dir_996f45160da62e1a3d7f6046fad68f51.html">engine</a></li><li class="navelem"><a href="dir_3d9126aa00c041bc0b8f859d1965a0f4.html">src</a></li><li class="navelem"><a href="dir_d7958bfcefb379efaec3d62a179a1d24.html">graphics</a></li><li class="navelem"><a href="gfx_8h.html">gfx.h</a></li>
+    <li class="footer">構築: <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.14.0 </li>
+  </ul>
+</div>
+</body>
+</html>

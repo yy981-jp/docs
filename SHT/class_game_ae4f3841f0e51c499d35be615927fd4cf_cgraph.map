@@ -1,0 +1,7 @@
+<map id="Game::exec" name="Game::exec">
+<area shape="rect" id="Node000001" title=" " alt="" coords="5,31,98,57"/>
+<area shape="rect" id="Node000002" href="$class_fps_counter.html#a5dc927aabeafe2ffbff32ca64f3a3d17" title=" " alt="" coords="146,5,283,32"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="98,34,133,31,128,33,99,39"/>
+<area shape="rect" id="Node000003" href="$class_fps_counter.html#a9d14052c40bc19abd30bb307aa5fe2f8" title=" " alt="" coords="146,56,282,83"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="98,49,133,56,128,57,98,54"/>
+</map>

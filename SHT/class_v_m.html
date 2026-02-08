@@ -1,0 +1,288 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "https://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="ja">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=11"/>
+<meta name="generator" content="Doxygen 1.14.0"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<title>SHT: VM クラス</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="dynsections.js"></script>
+<script type="text/javascript" src="clipboard.js"></script>
+<link href="navtree.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="navtreedata.js"></script>
+<script type="text/javascript" src="navtree.js"></script>
+<script type="text/javascript" src="cookie.js"></script>
+<link href="search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="search/searchdata.js"></script>
+<script type="text/javascript" src="search/search.js"></script>
+<link href="doxygen.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr id="projectrow">
+  <td id="projectalign">
+   <div id="projectname">SHT
+   </div>
+  </td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- 構築: Doxygen 1.14.0 -->
+<script type="text/javascript">
+var searchBox = new SearchBox("searchBox", "search/",'.html');
+</script>
+<script type="text/javascript">
+$(function() { codefold.init(); });
+</script>
+<script type="text/javascript" src="menudata.js"></script>
+<script type="text/javascript" src="menu.js"></script>
+<script type="text/javascript">
+$(function() {
+  initMenu('',true,false,'search.php','検索',true);
+  $(function() { init_search(); });
+});
+</script>
+<div id="main-nav"></div>
+</div><!-- top -->
+<div id="side-nav" class="ui-resizable side-nav-resizable">
+  <div id="nav-tree">
+    <div id="nav-tree-contents">
+      <div id="nav-sync" class="sync"></div>
+    </div>
+  </div>
+  <div id="splitbar" style="-moz-user-select:none;" 
+       class="ui-resizable-handle">
+  </div>
+</div>
+<script type="text/javascript">
+$(function(){initNavTree('class_v_m.html','','class_v_m-members'); });
+</script>
+<div id="container">
+<div id="doc-content">
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+</div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<div id="MSearchResults">
+<div class="SRPage">
+<div id="SRIndex">
+<div id="SRResults"></div>
+<div class="SRStatus" id="Loading">読み取り中…</div>
+<div class="SRStatus" id="Searching">検索中…</div>
+<div class="SRStatus" id="NoMatches">一致する文字列を見つけられません</div>
+</div>
+</div>
+</div>
+</div>
+
+<div class="header">
+  <div class="headertitle"><div class="title">VM クラス</div></div>
+</div><!--header-->
+<div class="contents">
+
+<p><code>#include &lt;<a class="el" href="_v_m_8h_source.html">VM.h</a>&gt;</code></p>
+<div class="dynheader">
+VM 連携図</div>
+<div class="dyncontent">
+<div class="center"><iframe scrolling="no" loading="lazy" frameborder="0" src="class_v_m__coll__graph.svg" width="127" height="136"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+<center><span class="legend">[<a target="top" href="graph_legend.html">凡例</a>]</span></center></div>
+<table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 id="header-pub-types" class="groupheader"><a id="pub-types" name="pub-types"></a>
+公開型</h2></td></tr>
+<tr class="memitem:a9e7f2cf64ed22b7e4cd60c5de036902e" id="r_a9e7f2cf64ed22b7e4cd60c5de036902e"><td class="memItemLeft" align="right" valign="top">enum class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a9e7f2cf64ed22b7e4cd60c5de036902e">ReturnCode</a> : uint8_t { <a class="el" href="#a9e7f2cf64ed22b7e4cd60c5de036902eacb5e100e5a9a3e7f6d1fd97512215282">error</a>
+, <a class="el" href="#a9e7f2cf64ed22b7e4cd60c5de036902ea260ca9dd8a4577fc00b7bd5810298076">success</a>
+, <a class="el" href="#a9e7f2cf64ed22b7e4cd60c5de036902eaa5d7ceb2c59b8cee46c2953fec9abc19">finished</a>
+, <a class="el" href="#a9e7f2cf64ed22b7e4cd60c5de036902ea4ec56cbb28b0ec249654f292762e497e">spawnRequest</a>
+ }</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 id="header-pub-methods" class="groupheader"><a id="pub-methods" name="pub-methods"></a>
+公開メンバ関数</h2></td></tr>
+<tr class="memitem:a00369521b09eae2fc56c9b10a1749ac1" id="r_a00369521b09eae2fc56c9b10a1749ac1"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a00369521b09eae2fc56c9b10a1749ac1">VM</a> (const std::string &amp;stgdatPath)</td></tr>
+<tr class="memitem:a853524e0fb93f1b47db0e2fc205e9a92" id="r_a853524e0fb93f1b47db0e2fc205e9a92"><td class="memItemLeft" align="right" valign="top"><a class="el" href="#a9e7f2cf64ed22b7e4cd60c5de036902e">ReturnCode</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a853524e0fb93f1b47db0e2fc205e9a92">step</a> ()</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 id="header-pub-attribs" class="groupheader"><a id="pub-attribs" name="pub-attribs"></a>
+公開変数類</h2></td></tr>
+<tr class="memitem:a39eb0bb87586c1aee29388c1f0b4bf7a" id="r_a39eb0bb87586c1aee29388c1f0b4bf7a"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a39eb0bb87586c1aee29388c1f0b4bf7a">running</a> = true</td></tr>
+<tr class="memitem:a2c8b237fbb1d5abc09cd4715315a91d8" id="r_a2c8b237fbb1d5abc09cd4715315a91d8"><td class="memItemLeft" align="right" valign="top">ExecFrame&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a2c8b237fbb1d5abc09cd4715315a91d8">frame</a></td></tr>
+<tr class="memitem:a57a7c63fccc371aef91cdcc74e93ef8f" id="r_a57a7c63fccc371aef91cdcc74e93ef8f"><td class="memItemLeft" align="right" valign="top">std::unordered_map&lt; std::string, bool &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a57a7c63fccc371aef91cdcc74e93ef8f">flags</a></td></tr>
+<tr class="memitem:abb60c4664275b00d682046378157744d" id="r_abb60c4664275b00d682046378157744d"><td class="memItemLeft" align="right" valign="top"><a class="el" href="commands_8h.html#add3aba9e82f39314eaba6dc752936b2a">GameCommand</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#abb60c4664275b00d682046378157744d">gamecommand</a></td></tr>
+</table>
+<a name="details" id="details"></a><h2 id="header-details" class="groupheader">詳解</h2>
+<div class="textblock">
+<p class="definition"> <a class="el" href="_v_m_8h_source.html">VM.h</a> の <a class="el" href="_v_m_8h_source.html#l00015">15</a> 行目に定義があります。</p>
+</div><a name="doc-enum-members" id="doc-enum-members"></a><h2 id="header-doc-enum-members" class="groupheader">列挙型メンバ詳解</h2>
+<a id="a9e7f2cf64ed22b7e4cd60c5de036902e" name="a9e7f2cf64ed22b7e4cd60c5de036902e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a9e7f2cf64ed22b7e4cd60c5de036902e">&#9670;&#160;</a></span>ReturnCode</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">enum class <a class="el" href="#a9e7f2cf64ed22b7e4cd60c5de036902e">VM::ReturnCode</a> : uint8_t</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel strong">strong</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<table class="fieldtable">
+<tr><th colspan="2">列挙値</th></tr><tr><td class="fieldname"><a id="a9e7f2cf64ed22b7e4cd60c5de036902eacb5e100e5a9a3e7f6d1fd97512215282" name="a9e7f2cf64ed22b7e4cd60c5de036902eacb5e100e5a9a3e7f6d1fd97512215282"></a>error&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a9e7f2cf64ed22b7e4cd60c5de036902ea260ca9dd8a4577fc00b7bd5810298076" name="a9e7f2cf64ed22b7e4cd60c5de036902ea260ca9dd8a4577fc00b7bd5810298076"></a>success&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a9e7f2cf64ed22b7e4cd60c5de036902eaa5d7ceb2c59b8cee46c2953fec9abc19" name="a9e7f2cf64ed22b7e4cd60c5de036902eaa5d7ceb2c59b8cee46c2953fec9abc19"></a>finished&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a9e7f2cf64ed22b7e4cd60c5de036902ea4ec56cbb28b0ec249654f292762e497e" name="a9e7f2cf64ed22b7e4cd60c5de036902ea4ec56cbb28b0ec249654f292762e497e"></a>spawnRequest&#160;</td><td class="fielddoc"></td></tr>
+</table>
+
+<p class="definition"> <a class="el" href="_v_m_8h_source.html">VM.h</a> の <a class="el" href="_v_m_8h_source.html#l00119">119</a> 行目に定義があります。</p>
+
+</div>
+</div>
+<a name="doc-constructors" id="doc-constructors"></a><h2 id="header-doc-constructors" class="groupheader">構築子と解体子</h2>
+<a id="a00369521b09eae2fc56c9b10a1749ac1" name="a00369521b09eae2fc56c9b10a1749ac1"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a00369521b09eae2fc56c9b10a1749ac1">&#9670;&#160;</a></span>VM()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">VM::VM </td>
+          <td>(</td>
+          <td class="paramtype">const std::string &amp;</td>          <td class="paramname"><span class="paramname"><em>stgdatPath</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition"> <a class="el" href="_v_m_8cpp_source.html">VM.cpp</a> の <a class="el" href="_v_m_8cpp_source.html#l00005">5</a> 行目に定義があります。</p>
+<div class="dynheader">
+呼び出し関係図:</div>
+<div class="dyncontent">
+<div class="center"><iframe scrolling="no" loading="lazy" frameborder="0" src="class_v_m_a00369521b09eae2fc56c9b10a1749ac1_cgraph.svg" width="203" height="38"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+</div>
+
+</div>
+</div>
+<a name="doc-func-members" id="doc-func-members"></a><h2 id="header-doc-func-members" class="groupheader">関数詳解</h2>
+<a id="a853524e0fb93f1b47db0e2fc205e9a92" name="a853524e0fb93f1b47db0e2fc205e9a92"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a853524e0fb93f1b47db0e2fc205e9a92">&#9670;&#160;</a></span>step()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="#a9e7f2cf64ed22b7e4cd60c5de036902e">VM::ReturnCode</a> VM::step </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition"> <a class="el" href="_v_m_8cpp_source.html">VM.cpp</a> の <a class="el" href="_v_m_8cpp_source.html#l00034">34</a> 行目に定義があります。</p>
+
+</div>
+</div>
+<a name="doc-variable-members" id="doc-variable-members"></a><h2 id="header-doc-variable-members" class="groupheader">メンバ詳解</h2>
+<a id="a57a7c63fccc371aef91cdcc74e93ef8f" name="a57a7c63fccc371aef91cdcc74e93ef8f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a57a7c63fccc371aef91cdcc74e93ef8f">&#9670;&#160;</a></span>flags</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">std::unordered_map&lt;std::string,bool&gt; VM::flags</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition"> <a class="el" href="_v_m_8h_source.html">VM.h</a> の <a class="el" href="_v_m_8h_source.html#l00114">114</a> 行目に定義があります。</p>
+
+</div>
+</div>
+<a id="a2c8b237fbb1d5abc09cd4715315a91d8" name="a2c8b237fbb1d5abc09cd4715315a91d8"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a2c8b237fbb1d5abc09cd4715315a91d8">&#9670;&#160;</a></span>frame</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">ExecFrame VM::frame</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition"> <a class="el" href="_v_m_8h_source.html">VM.h</a> の <a class="el" href="_v_m_8h_source.html#l00113">113</a> 行目に定義があります。</p>
+
+</div>
+</div>
+<a id="abb60c4664275b00d682046378157744d" name="abb60c4664275b00d682046378157744d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#abb60c4664275b00d682046378157744d">&#9670;&#160;</a></span>gamecommand</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="commands_8h.html#add3aba9e82f39314eaba6dc752936b2a">GameCommand</a> VM::gamecommand</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition"> <a class="el" href="_v_m_8h_source.html">VM.h</a> の <a class="el" href="_v_m_8h_source.html#l00115">115</a> 行目に定義があります。</p>
+
+</div>
+</div>
+<a id="a39eb0bb87586c1aee29388c1f0b4bf7a" name="a39eb0bb87586c1aee29388c1f0b4bf7a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a39eb0bb87586c1aee29388c1f0b4bf7a">&#9670;&#160;</a></span>running</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool VM::running = true</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition"> <a class="el" href="_v_m_8h_source.html">VM.h</a> の <a class="el" href="_v_m_8h_source.html#l00112">112</a> 行目に定義があります。</p>
+
+</div>
+</div>
+<hr/>このクラス詳解は次のファイルから抽出されました:<ul>
+<li><a class="el" href="_v_m_8h_source.html">VM.h</a></li>
+<li><a class="el" href="_v_m_8cpp_source.html">VM.cpp</a></li>
+</ul>
+</div><!-- contents -->
+</div><!-- doc-content -->
+<div id="page-nav" class="page-nav-panel">
+<div id="page-nav-resize-handle"></div>
+<div id="page-nav-tree">
+<div id="page-nav-contents">
+</div><!-- page-nav-contents -->
+</div><!-- page-nav-tree -->
+</div><!-- page-nav -->
+</div><!-- container -->
+<!-- start footer part -->
+<div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
+  <ul>
+    <li class="navelem"><a href="class_v_m.html">VM</a></li>
+    <li class="footer">構築: <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.14.0 </li>
+  </ul>
+</div>
+</body>
+</html>

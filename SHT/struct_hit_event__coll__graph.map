@@ -1,0 +1,7 @@
+<map id="HitEvent" name="HitEvent">
+<area shape="rect" id="Node000001" title=" " alt="" coords="76,125,148,152"/>
+<area shape="rect" id="Node000002" href="$struct_entity_handle.html" title=" " alt="" coords="5,5,102,32"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="62,44,85,100,103,125,97,125,81,103,59,49"/>
+<area shape="rect" id="Node000003" href="$struct_collision_info.html" title=" " alt="" coords="126,5,219,32"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="167,45,158,75,145,103,126,127,123,123,141,100,153,73,163,49"/>
+</map>
